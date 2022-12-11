@@ -17,6 +17,6 @@ int main(int argc, char *argv[]) {
     result += i;
   }
 
-  printf("The of integers up to %d is %d\n", n, result);
+  printf("The sum of integers up to %d is %d\n", n, result);
   return 0;
 }
