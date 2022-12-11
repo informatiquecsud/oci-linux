@@ -1,16 +1,18 @@
 #!/usr/bin/python3.8
 
+import sys
 from sys import argv
 
-argc: int = len(argv)
+argc: int = len(sys.argv)
 
 n: int = 0
 if argc == 1:
     n = 100
 elif argc == 2:
-    n = int(argv[1])
+    n = int(sys.argv[1])
 else:
-    print(f"Usage: argv[0] <N>")
+    print(f"Usage: python {argv[0]} <N>")
+    sys.exit(-1)
 
 result: int = 0
 for i in range(1, n + 1):
