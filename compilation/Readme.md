@@ -81,4 +81,4 @@ l'utilitaire `make`.
 
     ```bash
     time pypy/bin/pypy sum.py 100000000
-
+    ```
