@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-  int result = 0;
-  int n;
+  unsigned long result = 0;
+  unsigned long n;
 
   if (argc == 2) {
-    n = atoi(argv[1]);
+    n = atol(argv[1]);
   } else if (argc == 1) {
     n = 100;
   } else {
@@ -17,6 +17,6 @@ int main(int argc, char *argv[]) {
     result += i;
   }
 
-  printf("The sum of integers up to %d is %d\n", n, result);
+  printf("The sum of integers up to %lu is %lu\n", n, result);
   return 0;
 }
