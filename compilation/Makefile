@@ -20,7 +20,7 @@ disassemble_bytecode:
 	python disassemble.py sum > build/sum_bytecode.txt
 
 install-pypy:
-	wget https://downloads.python.org/pypy/pypy3.8-v7.3.10-linux64.tar.bz2
-	tar -xjf pypy3.8-v7.3.10-linux64.tar.bz2
-	rm -f pypy3.8-v7.3.10-linux64.tar.bz2
-	mv pypy3.8-v7.3.10-linux64 pypy
+	wget https://downloads.python.org/pypy/pypy3.10-v7.3.13-linux64.tar.bz2
+	tar -xjf pypy3.10-v7.3.13-linux64.tar.bz2
+	rm -f pypy3.10-v7.3.13-linux64.tar.bz2
+	mv pypy3.10-v7.3.13-linux64 pypy
